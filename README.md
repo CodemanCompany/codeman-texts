@@ -11,7 +11,7 @@ Los siguientes textos son referentes a las diálogos que deben aparecer en un M�
 ```javascript
 Swal.fire( {
 	"confirmButtonText": "Aceptar",
-	"text": "Por el momento no se puede realizar la operación, intente de nueva más tarde.",
+	"text": "Por el momento no se puede realizar la operación, intente de nuevo más tarde.",
 	"title": "Atención",
 	"type": "error",
 } );
