@@ -76,6 +76,10 @@ Swal.fire( {
 Swal.showLoading();
 ```
 
+### Logout
+
+```javascript
+```
 
 ## Payment
 
