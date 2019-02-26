@@ -1,10 +1,10 @@
 # Codeman Text
 
-El siguiente documento contine los estándares de textos que se deben usar en los siguientes contextos:
+El siguiente documento contiene los estándares de textos que se deben utilizar en cada uno de los siguientes contextos:
 
 ## Dialogs
 
-Los siguientes dialogos son referentes a las alertas que deben aparecer en un CRUD.
+Los siguientes textos son referentes a las diálogos que deben aparecer en un Módulo CRUD, Formulario de Contacto etc.
 
 #### Error
 
@@ -52,14 +52,14 @@ Swal.fire( {
 
 ## Authentication
 
-Los siguientes dialogos son referentes al proceso de Login y Logout.
+Los siguientes textos son referentes al proceso de **Login** y **Logout**. Recuerda que el **Login** no debe tener un diálogo en caso de acceder correctamente (Únicamente la redirección).
 
 #### Error
 
 ```javascript
 Swal.fire( {
 	"confirmButtonText": "Aceptar",
-	"text": "Datos de acceso incorrectos, por favor verifica la información.",
+	"text": "Datos de acceso incorrectos, por favor verifica la información proporcionada.",
 	"title": "Atención",
 	"type": "error",
 } );
