@@ -50,6 +50,14 @@ Swal.fire( {
 } );
 ```
 
+### Question
+
+```html
+<h3>¿Realmente deseas eliminar el siguiente elemento?</h3>
+<p>Advertencia, está acción no se puede deshacer.</p>
+```
+
+
 ## Authentication
 
 Los siguientes textos son referentes al proceso de **Login** y **Logout**. Recuerda que el **Login** no debe tener un diálogo en caso de acceder correctamente (Únicamente la redirección).
