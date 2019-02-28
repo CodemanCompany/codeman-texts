@@ -105,6 +105,19 @@ Swal.fire( {
 } );
 ```
 
+## Sign Up
+
+###### Success
+
+```javascript
+Swal.fire( {
+	"confirmButtonText": "Aceptar",
+	"text": "Completa tu registro siguiendo las instrucciones enviadas a tu correo electrónico.",
+	"title": "Registro exitoso",
+	"type": "success",
+} );
+```
+
 ## Payment
 
 ###### Loading in payment
@@ -113,7 +126,7 @@ Swal.fire( {
 Swal.fire( {
 	"allowOutsideClick": false,
 	"text": "Espere un momento por favor.",
-	"title": "Realizando operación",
+	"title": "Realizando transacción",
 } )
 Swal.showLoading();
 
