@@ -60,7 +60,6 @@ Swal.fire( {
 <p>Advertencia, está acción no se puede deshacer.</p>
 ```
 
-
 ## Authentication
 
 Los siguientes textos son referentes al proceso de **Login** y **Logout**. Recuerda que el **Login** no debe tener un diálogo en caso de acceder correctamente (Únicamente la redirección).
@@ -76,7 +75,7 @@ Swal.fire( {
 } );
 ```
 
-###### Loading
+###### Loading in authentication
 
 ```javascript
 Swal.fire( {
@@ -108,7 +107,7 @@ Swal.fire( {
 
 ## Payment
 
-###### Loading
+###### Loading in payment
 
 ```javascript
 Swal.fire( {
