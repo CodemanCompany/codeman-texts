@@ -111,7 +111,7 @@ Swal.fire( {
 
 ```javascript
 Swal.fire( {
-	"confirmButtonText": "Aceptar",
+	"confirmButtonText": "Continuar",
 	"text": "Completa tu registro siguiendo las instrucciones enviadas a tu correo electrónico.",
 	"title": "Registro exitoso",
 	"type": "success",
