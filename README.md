@@ -26,6 +26,9 @@ Swal.fire( {
 	"title": "Realizando operación",
 } )
 Swal.showLoading();
+
+// Close dialog
+Swal.close();
 ```
 
 #### Required
@@ -82,11 +85,25 @@ Swal.fire( {
 	"title": "Verificando datos de acceso",
 } );
 Swal.showLoading();
+
+// Close dialog
+Swal.close();
 ```
 
 ### Logout
 
+Se recomienda que al "cerrar sesión" se haga una redirección inmedia al "Inicio". Pero también se proporciona un diálogo en caso de ser necesario.
+
 ```javascript
+Swal.fire( {
+	"cancelButtonText": "Cancelar",
+	"confirmButtonText": "Aceptar",
+	"reverseButtons": true,
+	"showCancelButton": true,
+	"text": "Nos vemos pronto.",
+	"title": "¿Realmente deseas salir?",
+	"type": "warning",
+} );
 ```
 
 ## Payment
