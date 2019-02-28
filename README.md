@@ -108,3 +108,16 @@ Swal.fire( {
 
 ## Payment
 
+###### Loading
+
+```javascript
+Swal.fire( {
+	"allowOutsideClick": false,
+	"text": "Espere un momento por favor.",
+	"title": "Realizando operación",
+} )
+Swal.showLoading();
+
+// Close dialog
+Swal.close();
+```
