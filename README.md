@@ -6,7 +6,7 @@ El siguiente documento contiene los estándares de textos que se deben utilizar 
 
 Los siguientes textos son referentes a las diálogos que deben aparecer en un Módulo CRUD, Formulario de Contacto etc.
 
-#### Error
+##### Error
 
 ```javascript
 Swal.fire( {
@@ -17,7 +17,7 @@ Swal.fire( {
 } );
 ```
 
-#### Loading
+##### Loading
 
 ```javascript
 Swal.fire( {
@@ -31,7 +31,7 @@ Swal.showLoading();
 Swal.close();
 ```
 
-#### Required
+##### Required
 
 ```javascript
 Swal.fire( {
@@ -42,7 +42,7 @@ Swal.fire( {
 } );
 ```
 
-#### Success
+##### Success
 
 ```javascript
 Swal.fire( {
@@ -53,7 +53,7 @@ Swal.fire( {
 } );
 ```
 
-### Question
+##### Question
 
 ```html
 <h3>¿Realmente deseas eliminar el siguiente elemento?</h3>
@@ -65,7 +65,7 @@ Swal.fire( {
 
 Los siguientes textos son referentes al proceso de **Login** y **Logout**. Recuerda que el **Login** no debe tener un diálogo en caso de acceder correctamente (Únicamente la redirección).
 
-#### Error
+###### Error
 
 ```javascript
 Swal.fire( {
@@ -76,7 +76,7 @@ Swal.fire( {
 } );
 ```
 
-#### Loading
+###### Loading
 
 ```javascript
 Swal.fire( {
@@ -90,7 +90,7 @@ Swal.showLoading();
 Swal.close();
 ```
 
-### Logout
+##### Logout
 
 Se recomienda que al "cerrar sesión" se haga una redirección inmedia al "Inicio". Pero también se proporciona un diálogo en caso de ser necesario.
 
