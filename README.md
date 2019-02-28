@@ -65,7 +65,7 @@ Swal.fire( {
 
 Los siguientes textos son referentes al proceso de **Login** y **Logout**. Recuerda que el **Login** no debe tener un diálogo en caso de acceder correctamente (Únicamente la redirección).
 
-####### Error
+###### Error
 
 ```javascript
 Swal.fire( {
