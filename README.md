@@ -2,6 +2,22 @@
 
 El siguiente documento contiene los estándares de textos que se deben utilizar en cada uno de los siguientes contextos:
 
+## Datatables
+
+Los siguientes textos son referentes a los campos que deben aparecer en Datatables.
+
+```html
+<table>
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Fecha de creación</th>
+			<th>Fecha de modificación</th>
+		</tr>
+	</thead>
+</table>
+```
+
 ## Dialogs
 
 Los siguientes textos son referentes a las diálogos que deben aparecer en un Módulo CRUD, Formulario de Contacto etc.
