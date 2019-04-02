@@ -4,7 +4,7 @@ El siguiente documento contiene los estándares de textos que se deben utilizar 
 
 ## Posición de los iconos
 
-Los iconos preferentemente deben estar a la izquierda del texto, ejemplo:
+Los iconos **preferentemente** deben estar a la izquierda del texto, ejemplo:
 
 * 😎 Codeman
 
@@ -131,7 +131,7 @@ Swal.fire( {
 
 ```html
 <h3>¿Realmente deseas eliminar el siguiente elemento?</h3>
-<p>Advertencia, está acción no se puede deshacer.</p>
+<p>Advertencia, esta acción no se puede deshacer.</p>
 ```
 
 ## Authentication
