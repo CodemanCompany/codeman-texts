@@ -16,13 +16,13 @@ Se debe seguir la siguiente recomendación en todos los sistemas propios.
 
 El botón de **Cancelar** debe ir a la izquierda y el de **Aceptar** a la derecha.
 
-### En un Dialogo
+### En un Diálogo
 
 El botón de **Cancelar** debe ir a la derecha y el de **Aceptar** a la izquierda.
 
 ## Dashboard
 
-Las acciones básicas mejor conocidas como **CRUD** edben tener los siguientes nombres (Español / English):
+Las acciones básicas mejor conocidas como **CRUD** deben tener los siguientes nombres (Español / English):
 
 * **Create:** Agregar / Add.
 * **Read:** Ver / View.
