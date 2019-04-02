@@ -2,6 +2,33 @@
 
 El siguiente documento contiene los estándares de textos que se deben utilizar en cada uno de los siguientes contextos:
 
+## Posición de los iconos
+
+Los iconos preferentemente deben estar a la izquierda del texto, ejemplo:
+
+* 😎 Codeman
+
+## Posición de los botones de Cancelar y Aceptar
+
+Se debe seguir la siguiente recomendación en todos los sistemas propios.
+
+### En un Modal
+
+El botón de **Cancelar** debe ir a la izquierda y el de **Aceptar** a la derecha.
+
+### En un Dialogo
+
+El botón de **Cancelar** debe ir a la derecha y el de **Aceptar** a la izquierda.
+
+## Dashboard
+
+Las acciones básicas mejor conocidas como **CRUD** edben tener los siguientes nombres (Español / English):
+
+* **Create:** Agregar / Add.
+* **Read:** Ver / View.
+* **Update:** Editar / Edit.
+* **Delete:** Eliminar / Remove.
+
 ## Datatables
 
 Los siguientes textos son referentes a los campos que deben aparecer en Datatables.
