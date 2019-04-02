@@ -18,7 +18,7 @@ El botón de **Cancelar** debe ir a la izquierda y el de **Aceptar** a la derech
 
 ### En un Diálogo
 
-El botón de **Cancelar** debe ir a la derecha y el de **Aceptar** a la izquierda.
+El botón de **Aceptar** a la izquierda y el de **Cancelar** debe ir a la derecha.
 
 ## Dashboard
 
