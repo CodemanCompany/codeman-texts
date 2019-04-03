@@ -134,6 +134,17 @@ Swal.fire( {
 <p>Advertencia, esta acción no se puede deshacer.</p>
 ```
 
+###### Synchronization
+
+```javascript
+Swal.fire( {
+	"allowOutsideClick": false,
+	"text": "Un momento por favor.",
+	"title": "Sincronizando",
+} )
+Swal.showLoading();
+```
+
 ## Authentication
 
 Los siguientes textos son referentes al proceso de **Login** y **Logout**. Recuerda que el **Login** no debe tener un diálogo en caso de acceder correctamente (Únicamente la redirección).
