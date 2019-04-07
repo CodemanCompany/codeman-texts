@@ -4,7 +4,7 @@ El siguiente documento contiene los estándares de textos que se deben utilizar 
 
 ## Básicos
 
-Textos comúnes en un **Dashboard**.
+Textos básicos en un **Dashboard**.
 
 * **Sign Up**: Crear cuenta.
 * **Log In**: Iniciar sesión.
