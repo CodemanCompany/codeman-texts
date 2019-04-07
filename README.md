@@ -2,6 +2,14 @@
 
 El siguiente documento contiene los estándares de textos que se deben utilizar en cada uno de los siguientes contextos:
 
+## Básicos
+
+Textos comúnes en un **Dashboard**.
+
+* **Sign in**: Crear cuenta.
+* **Log in**: Iniciar sesión.
+* **Logout**: Cerrar sesión.
+
 ## Posición de los iconos
 
 Los iconos **preferentemente** deben estar a la izquierda del texto, ejemplo:
