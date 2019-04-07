@@ -6,9 +6,9 @@ El siguiente documento contiene los estándares de textos que se deben utilizar 
 
 Textos comúnes en un **Dashboard**.
 
-* **Sign in**: Crear cuenta.
-* **Log in**: Iniciar sesión.
-* **Logout**: Cerrar sesión.
+* **Sign Up**: Crear cuenta.
+* **Log In**: Iniciar sesión.
+* **Log Out**: Cerrar sesión.
 
 ## Posición de los iconos
 
