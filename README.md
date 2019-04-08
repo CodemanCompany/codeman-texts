@@ -107,8 +107,8 @@ Swal.fire( {
 	"confirmButtonText": "Eliminar",
 	"reverseButtons": true,
 	"showCancelButton": true,
-	"text": "Por el momento no se puede realizar la operación, intente de nuevo más tarde.",
-	"title": "Atención",
+	"text": "¿Realmente deseas eliminar el elemento seleccionado?",
+	"title": "Advertencia, esta acción no se puede deshacer",
 	"type": "error",
 } ).then( ( result ) => {
 	if ( result.value ) {
