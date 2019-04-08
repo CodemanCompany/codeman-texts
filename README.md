@@ -161,6 +161,10 @@ Swal.fire( {
 	"text": "Por favor vuelve a iniciar sesión.",
 	"title": "Tu sesión ha expirado",
 	"type": "error",
+} )
+.then( ( result ) => {
+	if( result.value )
+		location.href = '/';
 } );
 ```
 
