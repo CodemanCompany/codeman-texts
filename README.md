@@ -99,6 +99,24 @@ Swal.fire( {
 } );
 ```
 
+###### Delete
+
+```javascript
+Swal.fire( {
+	"cancelButtonText": "Cancelar",
+	"confirmButtonText": "Eliminar",
+	"reverseButtons": true,
+	"showCancelButton": true,
+	"text": "Por el momento no se puede realizar la operación, intente de nuevo más tarde.",
+	"title": "Atención",
+	"type": "error",
+} ).then( ( result ) => {
+	if ( result.value ) {
+		// Write here
+	}	// end if
+} );
+```
+
 ###### Loading
 
 ```javascript
