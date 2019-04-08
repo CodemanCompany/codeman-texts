@@ -104,12 +104,13 @@ Swal.fire( {
 ```javascript
 Swal.fire( {
 	"cancelButtonText": "Cancelar",
+	"confirmButtonColor": "#dc3545",
 	"confirmButtonText": "Eliminar",
 	"reverseButtons": true,
 	"showCancelButton": true,
 	"text": "¿Realmente deseas eliminar el elemento seleccionado?",
 	"title": "Advertencia, esta acción no se puede deshacer",
-	"type": "error",
+	"type": "warning",
 } ).then( ( result ) => {
 	if ( result.value ) {
 		// Write here
