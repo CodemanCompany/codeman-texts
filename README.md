@@ -113,6 +113,13 @@ Swal.showLoading();
 Swal.close();
 ```
 
+###### Question
+
+```html
+<h3>¿Realmente deseas eliminar el siguiente elemento?</h3>
+<p>Advertencia, esta acción no se puede deshacer.</p>
+```
+
 ###### Required
 
 ```javascript
@@ -135,13 +142,6 @@ Swal.fire( {
 } );
 ```
 
-###### Question
-
-```html
-<h3>¿Realmente deseas eliminar el siguiente elemento?</h3>
-<p>Advertencia, esta acción no se puede deshacer.</p>
-```
-
 ###### Synchronization
 
 ```javascript
@@ -151,6 +151,17 @@ Swal.fire( {
 	"title": "Sincronizando",
 } )
 Swal.showLoading();
+```
+
+###### Unauthenticated
+
+```javascript
+Swal.fire( {
+	"confirmButtonText": "Aceptar",
+	"text": "Por favor vuelve a iniciar sesión.",
+	"title": "Tu sesión ha expirado",
+	"type": "error",
+} );
 ```
 
 ## Authentication
