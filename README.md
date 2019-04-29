@@ -208,7 +208,7 @@ Swal.fire( {
 Swal.fire( {
 	"allowOutsideClick": false,
 	"text": "Espere un momento por favor.",
-	"title": "Verificando datos de acceso",
+	"title": "Verificando datos de acceso...",
 } );
 Swal.showLoading();
 
@@ -229,6 +229,17 @@ Swal.fire( {
 	"text": "Nos vemos pronto.",
 	"title": "¿Realmente deseas salir?",
 	"type": "warning",
+} );
+```
+
+###### Not available
+
+```javascript
+Swal.fire( {
+	"confirmButtonText": "Aceptar",
+	"text": "Servicio no disponible por el momento. Intenta de nuevo más tarde.",
+	"title": "Atención",
+	"type": "error",
 } );
 ```
 
